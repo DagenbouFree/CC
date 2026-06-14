@@ -40,7 +40,7 @@ const GOD_TOOLTIPS: Record<string, string> = {
   'matthios': 'Residents of your estate are no servants. They are your comrades in fight for freedom! They do not pay taxes to you or crown. Instead they willingly support you with coin. A portion of profits and produce is kept in secret from treasure and is sold on open markets.',
   'necra': '',
   'noc': 'Your workers sleep at dae and work at night, delivering results of their labour at dawn. Night hunt is more efficient, but tending to fields and orchards is harder.',
-  'pestra': '',
+  'pestra': 'Pestra wards your crops from blights and pests while her followers take care of ill peasants. This allows your workers to be much more efficent at growing crops.',
   'psydon': 'Every Sundae your peasants worship Psydon. Inspired by His example they put all their effort to work.',
   'ravox': 'An outpost will be built in order to uphold His order and to dispatch troops to fight banditry.',
   'undivided': 'By following teaching of each of the Ten your workers excel at every task but only slightly.',

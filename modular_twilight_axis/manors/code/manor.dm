@@ -97,6 +97,17 @@
 			//var/datum/workstation/mage_tower/new_mage_tower = new /datum/workstation/mage_tower()
 			//workstations += new_mage_tower
 			//max_workers += new_mage_tower.workstation_size
+		if(/datum/patron/divine/pestra)
+			var/has_field_district = FALSE
+			for(var/datum/workstation/ws in workstations)
+				if(istype(ws, /datum/workstation/field))
+					ws.workstation_size += 5
+					max_workers += 5
+					has_field_district = TRUE
+			if(!has_field_district)
+				var/datum/workstation/mining/new_field = new /datum/workstation/field()
+				workstations += new_field
+				max_workers += new_field.workstation_size
 		if(/datum/patron/divine/malum)
 			var/has_mine_district = FALSE
 			for(var/datum/workstation/ws in workstations)
